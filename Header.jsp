@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My Profile</title>
+ 
   <link rel = "icon" type = "image/png" href = "img/Logopro2.png">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
@@ -61,30 +61,43 @@
         
 
       <div id="logo" class="pull-left">
-           <h2 style="font-size:50px;color:white;text-shadow:3px 3px #007bff; font-weight: bold">
+          <h2 style="font-size:50px;color:white;text-shadow:3px 3px #007bff; font-weight: bold">
                 Alamara
                 <sub style="font-size:15px;color:white;text-shadow:1px 1px #007bff; font-weight: bold">
                     Your One Safe Place To Find Projects
                 </sub>
           </h2> 
+        
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="Homepage_1.jsp">Home</a></li>
+          <li><a href="Homepage.jsp">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#features">Features</a></li>
          
           
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="changepass.jsp">Change Password</a></li>
+         
+          <li><a href="stuchangepass.jsp">Change Password</a></li>
+          <li class="menu-has-children"><a href="#">My Ideas</a>
+            <ul>
+              <li><img src="img/mypro.png" width="30" height="30" ><a href="Myproject.jsp">My Project</a></li>
+              <li><img src="img/mysem.png" width="25" height="25" ><a href="myseminar.jsp">My Seminar</a></li>
+              
+              
+              
+            </ul>
+          </li>
          <!--<li><a href="changepass.jsp"><img src="img/edit1.jpg" width="40" height="40"></a></li>-->
+         
         </ul>
+          
       </nav>
       <!-- #nav-menu-container -->
 
       <nav class="nav social-nav pull-right d-none d-lg-inline">
-          <a href="editprofile.jsp"><i class=""><img class="editpro" src="img/edit1.jpg" width="35" height="35" ></i></a>
+          
+          <a href="stueditprofile.jsp"><i class=""><img class="editpro" src="img/edit1.jpg" width="35" height="35" ></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
       </nav>
     </div>

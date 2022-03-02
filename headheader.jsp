@@ -17,7 +17,11 @@
   <meta property="og:description" content="">
 
   <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
- 
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
 
   <!-- Favicon -->
   <link href="img/favicon.ico" rel="icon">
@@ -33,7 +37,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-  <link href="../guest/form.css" rel="stylesheet">
+  <link href="form.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Bell
@@ -56,35 +60,19 @@
                     Your One Safe Place To Find Projects
                 </sub>
           </h2> 
-        <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Bell</a></h1>-->
+          
+                       
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="Homepage.jsp">Home</a></li>
-                   
-          <li class="menu-has-children"><a href="#">View Details</a>
-            <ul>
-              <li><a href="Viewproject.jsp">View Project</a></li>
-              <li><a href="viewseminar.jsp">View Seminar</a></li>
-              <li><a href="stutech.jsp">View Tech Fest</a></li>
-              <li><a href="Viewplacement.jsp">View Placement Drives</a></li>
-              
-              <li><a href="Stuviewcompany.jsp">View Company</a></li>
-              
-            </ul>
-          </li>
-          <li class="menu-has-children"><a href="#">My Ideas</a>
-            <ul>
-              <li><img src="img/mypro.png" width="30" height="30" ><a href="Myproject.jsp">My Project</a></li>
-              <li><img src="img/mysem.png" width="25" height="25" ><a href="myseminar.jsp">My Seminar</a></li>
-              
-              
-              
-            </ul>
-          </li>
+          <li><a href="../guest/Aboutus.jsp">About Us</a></li>
+          <li><a href="../guest/Features.jsp">Features</a></li>
+         
+          
           <li><a href="#contact">Contact Us</a></li>
+          
           
         </ul>
       </nav>
